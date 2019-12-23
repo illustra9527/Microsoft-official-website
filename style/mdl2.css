@@ -1,0 +1,16 @@
+/*!
+Author: Quique Fdez Guerra
+Twitter: @CKGrafico
+Microsoft Guidelines: https://msdn.microsoft.com/en-us/library/windows/apps/jj841126.aspx
+GitHub: https://github.com/CKGrafico/Segoe-mdl2-assets-css
+*/
+
+[class^="mdl2-"], [class*="mdl2-"] {
+    font-family: 'Segoe MDL2 Assets';
+  }
+  
+  [class^="mdl2-"]::before, [class*="mdl2-"]::before {
+    font-size: 1.8pc;
+  }
+
+  .mdl2-globe::before  { content: '\e774'; } 
